@@ -6,8 +6,6 @@ public class Jiii {
 		// TODO Auto-generated method stub
 System.out.println("hhbvgghgvfhgfghfg");
 System.out.println("jhbjcxb");
-
-
 	}
 
 }
