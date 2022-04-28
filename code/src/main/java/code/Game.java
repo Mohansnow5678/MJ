@@ -6,6 +6,8 @@ public class Game {
 		// TODO Auto-generated method stub
 System.out.println("hii buddy ");
 		systyem.out.println("hii");
+		system.out.println("KII");
+		
 	}
 
 }
