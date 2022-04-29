@@ -24,7 +24,7 @@ String str="welcome to sonar";
 		logger.error("error message...:"+str);
 	
 		
-		
+		//DJMJMJDJ
 		
 		
 	}
