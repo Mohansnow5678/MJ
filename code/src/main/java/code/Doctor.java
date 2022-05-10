@@ -8,7 +8,7 @@ package code;
 public class Doctor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
   String fr="Float";
   String ft="Float1";
   int sc=12;
@@ -20,7 +20,7 @@ public class Doctor {
   fr=ft;
   ft=temp;
   
-  String cv=Integer.toString(sc);
+  String cv=String.valueOf(Ag);
   
   String sr =cv;
   cv=Ag;
