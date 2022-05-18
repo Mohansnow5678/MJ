@@ -7,7 +7,7 @@ public class Condition {
 
 		
 		
-		String result=(4%2==0)?"Even Number ...":"Odd Number...";
+	/**	String result=(4%2==0)?"Even Number ...":"Odd Number...";
 		System.out.println(result);
 		System.out.println((10<20)?"yes it will lesser than 20":"no it is not lesser than twenty");
 		
@@ -30,7 +30,25 @@ public class Condition {
 		else {
 			System.out.println("allahuddin and 40 theifs....");
 	}
+	 
+		
+		
+		
+		
+		if(3==3)
+		{
+			System.out.println("conditional wrong");
+		}
+		else {
+			System.out.println("Good Boy");
+		}
+	
+		**/
+		
+		
+		int first = 100; 
+		int second = 200; 
+		 System.out.println(first + " " + second);
+	
 
-}
-
-}
+}}
