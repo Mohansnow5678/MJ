@@ -1,4 +1,4 @@
-package Own;
+package chap5;
 
 public class Primenumber {
 
