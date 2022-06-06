@@ -17,7 +17,6 @@ public class Swapping {
 		float temp=A;
 		A=B;
 		B=temp;
-		
 		System.out.println("AFTER SWAP");
 		System.out.println("FIRST NUMBER:"+A);
 		System.out.println("SECOND NUMBER:"+B);

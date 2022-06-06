@@ -7,19 +7,6 @@ public class WhileLoop {
 	public static void main(String[] args) {
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		// TODO Auto-generated method stub
    int fn,f=0;
    
    
@@ -37,18 +24,6 @@ System.out.println("Enter the Number between 10");
 	}
 	
  System.out.format("sum of the numbers from the While loop: %d", + f);
-			
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	}
 }
