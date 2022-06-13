@@ -5,7 +5,7 @@ public class Mian {
 	public static void main(String[] args) {
 
 		cat pussy=new cat();
-		pussy.name="Waatha";
+		pussy.name="Jimmy";
 		pussy.eat();
 		pussy.sleep();
 		
