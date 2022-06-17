@@ -10,7 +10,7 @@ public class FinalDemo {
               fc.s=900;
       fc.met(39);
       
-      System.out.println(met.);
+   //   System.out.println(met);
 	}
 
 }
