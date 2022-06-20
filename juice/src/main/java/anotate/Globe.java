@@ -1,6 +1,6 @@
 package anotate;
 
-public class BAth {
+public class Globe {
 	  enum Level {
 		    LOW,
 		    MEDIUM,
@@ -13,3 +13,4 @@ public class BAth {
 	}
 
 }
+
