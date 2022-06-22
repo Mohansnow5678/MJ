@@ -17,10 +17,10 @@ Map<String,String> map=new WeakHashMap<String, String>();
 		map.put(key1, "RAT");
 		map.put(key2, "CAT");
 		
-		System.out.println(map);
-		key1=null;
-		System.out.println(map);
-		System.gc();
+	//	System.out.println(map);
+		key2=null;
+	//	System.out.println(map);
+	System.gc();
 		
 		System.out.println(map);
 	}
