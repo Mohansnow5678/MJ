@@ -8,7 +8,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Url {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		URLConnection urlcon = null;
 		// urlcon.getInputStream();
 		
@@ -28,7 +28,7 @@ public class Url {
 				// String s=new String(b,0,bytesread);
 				fos.write(b, 0, bytesread);
 			}
-		} catch (FileNotFoundException e) {
+		} catch (IOException e) {
 			
 			System.out.println("There is a FileNotFound Exception, pls check file existance");
 		
