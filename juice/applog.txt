@@ -850,3 +850,10 @@ INFO    2022-05-13 16:16:56,260 [main] testpro.Nestedloop  - 5 1
 INFO    2022-05-13 16:16:56,260 [main] testpro.Nestedloop  - 5 2
 INFO    2022-05-13 16:16:56,260 [main] testpro.Nestedloop  - 5 3
 INFO    2022-05-13 16:16:56,260 [main] testpro.Nestedloop  - 5 4
+INFO    2022-06-27 14:58:13,483 [main] sqlJDBC.Demo11  - this is a message....:com.mysql.cj.jdbc.ConnectionImpl@a8ef162
+INFO    2022-06-27 14:58:39,601 [main] sqlJDBC.Demo11  - Message:com.mysql.cj.jdbc.ConnectionImpl@a8ef162
+INFO    2022-06-27 14:59:42,636 [main] sqlJDBC.Demo11  - Message:com.mysql.cj.jdbc.ConnectionImpl@a8ef162
+INFO    2022-06-27 15:01:15,333 [main] sqlJDBC.Demo11  - Message:com.mysql.cj.jdbc.ConnectionImpl@a8ef162
+INFO    2022-06-27 15:01:15,362 [main] sqlJDBC.Demo11  - Message:true
+INFO    2022-06-27 15:04:01,934 [main] sqlJDBC.Demo11  - Message:com.mysql.cj.jdbc.ConnectionImpl@a8ef162
+WARN    2022-06-27 15:04:01,963 [main] sqlJDBC.Demo11  - Message:true

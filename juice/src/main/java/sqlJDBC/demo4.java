@@ -1,4 +1,4 @@
-package JDBC;
+package sqlJDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ public class demo4 {
 
 		System.out.println(con);
 
-		String sql = "update users set love=? where uid=?";
+		String sql = "update users set uid=? where love=?";
 		PreparedStatement stmt = con.prepareStatement(sql);
 
 		while (true) {

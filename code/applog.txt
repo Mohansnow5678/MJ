@@ -21,3 +21,6 @@ ERROR   2022-04-28 16:05:55,538 [main] code.Hello  - error message...:welcome to
 INFO    2022-05-12 16:42:28,291 [main] code.Hello  - this is a message....:welcome to sonar
 WARN    2022-05-12 16:42:28,293 [main] code.Hello  - warning message...:welcome to sonar
 ERROR   2022-05-12 16:42:28,293 [main] code.Hello  - error message...master..:welcome to sonar
+INFO    2022-06-27 14:57:11,239 [main] code.Hello  - this is a message....:welcome to sonar
+WARN    2022-06-27 14:57:11,240 [main] code.Hello  - warning message...:welcome to sonar
+ERROR   2022-06-27 14:57:11,240 [main] code.Hello  - error message...master..:welcome to sonar
