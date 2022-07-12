@@ -7,6 +7,7 @@
 <title>FRUIT SHOP</title>
 </head>
 <body>
+
 <h1>Fruit Shop</h1>
 <form action="purchase.do" method="post">
 <input type="hidden" name="action" value="purchase">
@@ -17,7 +18,6 @@
 <input type="submit" value="Next">
 </form>
 <hr>
-<jsp:include page="logout.jsp" />
-<hr>
+
 </body>
 </html>

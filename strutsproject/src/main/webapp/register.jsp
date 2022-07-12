@@ -7,6 +7,10 @@
 <title>Register</title>
 </head>
 <body>
+<hr>
+
+<jsp:include page="logout.jsp" />
+<hr>
 <center>
 <form action="register.do" method="post">
 <input name="action" value="register" type="hidden">

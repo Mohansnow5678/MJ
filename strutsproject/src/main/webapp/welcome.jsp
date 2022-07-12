@@ -6,15 +6,13 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-<hr>
 
-<hr>
+<body>
+
 <h1>Welcome To Super Market.........</h1>
 <hr>
 <jsp:include page="fruitshop.jsp" />
-
-<jsp:include page="logout.jsp" />
 <hr>
+<jsp:include page="logout.jsp" />
 </body>
 </html>

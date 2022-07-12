@@ -13,6 +13,8 @@
 <input placeholder="Enter User Name" name="uname" type="text">
 <input placeholder="Enter Password" name="upass" type="password">
 <input type="submit" value="login">
+
+
 </form>
 </center>
 
