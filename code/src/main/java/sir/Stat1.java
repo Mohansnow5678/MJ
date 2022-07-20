@@ -1,33 +1,28 @@
-package chapter8;
+package sir;
 
+import java.awt.Paint;
 
-
-public class Inherit2 {
-
-
+public class Stat1 {
 	public static void main(String[] args) {
 		Hall1 hall=new BirthDayHall();
+		
 		hall=new MarriageHall();
-		
-		
-		BadPaintBrush G=new BadPaintBrush();
-        G.doPaint(2);
-		 PaintBrush J=new PaintBrush();
-		 J.doPaint(new BluePaint());
-		 
-		 
-		 BadDog K=new BadDog();
-		 K.play("stick");
-		 GoodDog H=new GoodDog();
-		 H.play(new Biscuit2());
+		BadPaintBrush hr=new BadPaintBrush();
+
+	    hr.doPaint(10);
+	
 	
 	}
 }
-abstract class Hall1{}
-class BirthDayHall extends Hall1{}
-class MarriageHall extends Hall1{}
-
-
+abstract class Hall1{
+	
+}
+class BirthDayHall extends Hall1{
+	
+}
+class MarriageHall extends Hall1{
+	
+}
 class BadPaintBrush{
 	public void doPaint(int i) {
 		if(i==1) {
@@ -35,20 +30,17 @@ class BadPaintBrush{
 		}
 		else if(i==2) {
 			System.out.println("blue color");
-			
-		}}}
-
+		}
+	}
+}
 class PaintBrush{
 	public void doPaint(Paint p) {
 		System.out.println(p);
-	}}
-abstract class Paint{}
-class BluePaint extends Paint{}
-class GreenPaint extends Paint{}
-
-
-
-
+	}
+}
+abstract class Paintt{}
+class BluePaint extends Paintt{}
+class GreenPaint extends Paintt{}
 class BadDog{
 	public void play(String item) {
 		if(item.equals("stick")) {
